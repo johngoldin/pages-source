@@ -6,8 +6,31 @@
     <description>Recent content on Can I Blog Too</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 10 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;p&gt;This website is intended to described some of my personal R projects. It may include some posts on other general subjects.&lt;/p&gt;
+
+&lt;p&gt;This is my first attempt to use the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; package
+to setup and maintain a website via &lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;strong&gt;Hugo&lt;/strong&gt;&lt;/a&gt; and available
+via &lt;a href=&#34;https://pages.github.com/&#34;&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;&lt;/a&gt;. This site uses the &lt;a href=&#34;http://themes.gohugo.io/hyde/&#34;&gt;Hyde theme&lt;/a&gt; in Hugo.&lt;/p&gt;
+
+&lt;p&gt;To get started, I first looked at a &lt;a href=&#34;https://proquestionasker.github.io/blog/Making_Site/&#34;&gt;post by Amber Thomas&lt;/a&gt;. I did not
+follow her steps very closely. Instead, I aimed to rely more on the
+RStudio side of things than on GitHub. Based on the items in the comment
+thread by blogdown&amp;rsquo;s creator Yihui Xie, I decided to rely on two
+repositories. One for the raw material for the web site and then
+johngoldin.github.io to contain the static website created by Hugo.
+Amber&amp;rsquo;s instructions involve creating two branches in the johngoldin.github.io repository.
+That sounded too complicated.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post revised</title>
@@ -37,18 +60,6 @@
 
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::new_post(&amp;quot;Post Title&amp;quot;, rmd = FALSE)
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>&lt;p&gt;Now with revised content.&lt;/p&gt;
-
-&lt;p&gt;This is a &amp;ldquo;hello world&amp;rdquo; example website for the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; package. The theme was forked from &lt;a href=&#34;https://github.com/jrutheiser/hugo-lithium-theme&#34;&gt;@jrutheiser/hugo-lithium-theme&lt;/a&gt; and modified by &lt;a href=&#34;https://github.com/yihui/hugo-lithium-theme&#34;&gt;Yihui Xie&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
