@@ -5,6 +5,7 @@ title = "Can I Blog Too"
 theme = "hyde"
 googleAnalytics = ""
 disqusShortname = ""
+publishDir = "../johngoldin.github.io"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [permalinks]
