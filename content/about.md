@@ -18,3 +18,6 @@ johngoldin.github.io to contain the static website created by Hugo.
 Amber's instructions involve creating two branches in the johngoldin.github.io repository.
 That sounded too complicated.
 
+Previously I did some [posts on WordPress](https://caniblogtoo.wordpress.com/) and before that
+I did some on [Blogger](http://goldinoldie.blogspot.com/).
+
