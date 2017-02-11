@@ -10,7 +10,6 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-
 [[menu.main]]
     name = "About"
     url = "/about/"
@@ -28,7 +27,8 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     highlightjsVersion = "9.9.0"
     highlightjsLang = ["r", "yaml"]
     highlightjsTheme = "github"
-
+    themeColor = "theme-base-08"
+   
     [params.logo]
     url = "logo.png"
     width = 50
