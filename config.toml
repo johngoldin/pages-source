@@ -2,7 +2,7 @@ baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
 title = "Can I Blog Too"
-theme = "hyde"
+theme = "hyde-x"
 googleAnalytics = ""
 
 # Enable Disqus integration
@@ -38,3 +38,6 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     height = 50
     alt = "Logo"
 
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
