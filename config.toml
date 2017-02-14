@@ -4,7 +4,10 @@ languageCode = "en-us"
 title = "Can I Blog Too"
 theme = "hyde"
 googleAnalytics = ""
-disqusShortname = ""
+
+# Enable Disqus integration
+disqusShortname = "johngoldin"
+
 publishDir = "../johngoldin.github.io"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 

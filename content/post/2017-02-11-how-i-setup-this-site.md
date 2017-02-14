@@ -1,5 +1,5 @@
 ---
-title: How I Setup This Site
+title: How I Set Up This Site
 author: John Goldin
 date: '2017-02-11'
 categories: []
@@ -73,4 +73,91 @@ publish your website.
 a GitHub repository for `hugo-source`. It depends on whether
 you want to use version control for convenience or backup, just
 as would be true for any other RStudio project.)
+
+[Kevin Wong](http://kevinfw.com/post/blogging-with-r-markdown/) does a nice
+job of describing the steps needed to get started with **blogdown**. Too bad
+I didn't discover this page until after I started writing this description. But I will follow his text closely here.
+
+Here are the steps in the RStudio project that contains the source for Hugo:
+
+```
+devtools::install_github("rstudio/blogdown")
+```
+
+In the RStudio project hugo-source (or whatever you have called it), have
+**blogdown** install hugo.
+
+```
+library(blogdown)
+blogdown::install_hugo()
+```
+
+Next we wil create a new site:
+
+```
+blogdown::new_site()
+```
+
+The hugo-source site has to be **totally** empty. Otherwise you will get an error. Of course as created it will not be totally empty.
+You will have an RProj file and probably `.gitignore`.  Move those
+out of the project folder and keep them somewhere safe. Run
+`new_site` again and them move them back into the project folder.
+
+Next you need to install a **Hugo** theme. Go to the [themes page](http://themes.gohugo.io/) to find one you like. 
+It's hard to know what to pick when you are just starting out.
+I'm a novice as well so I can't offer good advice. You can
+avoid a choice for now and just stick with the default theme
+that is installed as part of the new_site() call.
+
+If you have chosen a different theme, use the install_theme call:
+
+```
+install_theme("spf13/hyde")
+```
+
+To try out your site, 
+```
+blogdown::serve_site()
+```
+
+With luck, the web site should appear in your RStudio View pane.
+
+How to you get this site running in **GitHub**? There's a neat trick.
+Edit the `config.toml` file in the `hugo-pages` project folder and
+add this magic line:
+
+```
+publishDir = "../username.github.io"   # where username is your GitHub name
+```
+
+Whenever you run serve_site(), the constructed site will be
+created in the `username.github.io` directory rather than in `hugo-pages`.
+To get the site working on **GitHub**, switch to the `username.github.io` project in RStudio,
+go to the Git pane in RStudio, select all the changed files, `Commit`, 
+and then `Push` the changes to **GitHub**. Magic! The same code
+that is creating the trial web site on your local computer will
+now be the reproduced exactly in the `username.github.io`
+repository on **GitHub** and can be accessed as http://username.github.io.
+
+You can work on your web site on your local RStudio project. When you think it is ready to publish changes
+for all the world to see, go to the `username.github.io` project and
+push the changes to **GitHub** and you have published your changes on the web.
+
+### Now What?
+I now have a working web site on **GitHub**. But I have a ways to go to learn
+how to take advantage of **Hugo** on an ongoing basis. So far I have added
+one and only one post. I have looked at the [Hugo documentation](http://gohugo.io/overview/usage/) a bit to try to figure out how to do some basis things.
+For example, [this page](https://gohugo.io/extras/shortcodes#ref-relref) tells
+me how to add a cross-reference to a post on my site.
+
+It is not yet clear to me how I will take advantage of my **Hugo** **GitHub** site on an ongoing basis.
+One of the features of **blogdown** is that I can use RMarkdown.
+How will I do that in practice?
+I'll have an RMarkdown file in a project I am working on that
+documents or demonstrates that project. Will I `knit` the file
+and then move the html to my **blogdown** project? Will
+I move the Rmd file to the **blogdown** project and include a `setwd` function
+call to point to the project that it comes from? I haven't
+tried any of this in practice yet. I need to look at the existing **blogdown**
+examples more closely. When I know more, I'll add to this introduction.
 
