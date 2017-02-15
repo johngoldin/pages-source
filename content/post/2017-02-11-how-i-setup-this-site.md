@@ -5,8 +5,8 @@ date: '2017-02-11'
 categories: []
 tags: []
 Categories:
-  - Development
-  - GoLang
+  - blogdown
+  - GitHub
 Description: ''
 Tags:
   - Development

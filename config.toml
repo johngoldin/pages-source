@@ -5,6 +5,9 @@ title = "Can I Blog Too"
 theme = "hyde-x"
 googleAnalytics = ""
 
+[author]
+    name = "Can I Blog Too"
+
 # Enable Disqus integration
 disqusShortname = "johngoldin"
 
@@ -30,14 +33,26 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     highlightjsVersion = "9.9.0"
     highlightjsLang = ["r", "yaml"]
     highlightjsTheme = "github"
-    themeColor = "theme-base-08"
+    # Changes sidebar background and link/accent colours.
+    # See below for more colour options.
+    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-08"
    
     [params.logo]
     url = "logo.png"
     width = 50
     height = 50
     alt = "Logo"
+    # license = "https://opensource.org/licenses/MIT"
 
     # Sidebar position
     # false, true, "left", "right"
     sidebar = "left"
+
+    # Hide estimated reading time for posts.
+    # Default (if omitted) is false.
+    hideReadingTime = TRUE
+    
+    # Displays under the author name in the sidebar, keep it short.
+    # You can use markdown here.
+    tagline = "Notes on this and that."
