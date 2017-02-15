@@ -1,12 +1,12 @@
 baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
-title = "Can I Blog Too"
+title = "Can I Blog Too"  
 theme = "hyde-x"
 googleAnalytics = " UA-92008736-1"
 
 [author]
-    name = "Can I Blog Too"
+    name = "John Goldin"
 
 # Enable Disqus integration
 disqusShortname = "johngoldin"

@@ -176,3 +176,15 @@ call to point to the project that it comes from? I haven't
 tried any of this in practice yet. I need to look at the existing **blogdown**
 examples more closely. When I know more, I'll add to this introduction.
 
+I have switched to the Hyde-x theme rather than just Hyde.
+Configuration has involved a lot of trial and error.
+I setup Disqus and briefly saw the ability to do comments on my blog. But after and I made some unrelated changes, 
+I no longer see any sign of Disqus. 
+
+I have had a number of other questions aboiut how thigs are supposed to work. I briefly tried Hyde-y rather than
+Hyde-x. But with Hyde-y I only saw the sidebar at the top
+rather than to the left, as specified in `config.toml`.
+
+At this point I hope to do some other posts and see what happens. 
+Maybe comments will magically reappear.
+
