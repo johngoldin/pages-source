@@ -179,12 +179,16 @@ examples more closely. When I know more, I'll add to this introduction.
 I have switched to the Hyde-x theme rather than just Hyde.
 Configuration has involved a lot of trial and error.
 I setup Disqus and briefly saw the ability to do comments on my blog. But after and I made some unrelated changes, 
-I no longer see any sign of Disqus. 
+I no longer saw any sign of Disqus.
+Eventually I realized that I was confused (and ignorant) about the
+syntax of `config.toml`. I had had a square-brackets author line above
+the line that set `disqusShortname` and as a result `disqusShortname`
+wasn't getting set. I moved things around and comments reappeared.
 
-I have had a number of other questions aboiut how thigs are supposed to work. I briefly tried Hyde-y rather than
-Hyde-x. But with Hyde-y I only saw the sidebar at the top
-rather than to the left, as specified in `config.toml`.
+This is typical of the blundering around I am doing with Hugo and themes.
+I guess it's a learning experience.
 
-At this point I hope to do some other posts and see what happens. 
-Maybe comments will magically reappear.
+
+
+
 

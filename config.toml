@@ -3,16 +3,21 @@ relativeurls = true
 languageCode = "en-us"
 title = "Can I Blog Too"  
 theme = "hyde-x"
-googleAnalytics = " UA-92008736-1"
+    gravatarHash = "f7dd8b52bc092b4e50e9324381b02d67"
 
-[author]
-    name = "John Goldin"
+MetaDataFormat = "toml"
+paginate = 10
 
 # Enable Disqus integration
 disqusShortname = "johngoldin"
 
+# send the public files to a different RStudio project
 publishDir = "../johngoldin.github.io"
+
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[author]
+    name = "John Goldin"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -38,16 +43,11 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
     theme = "theme-base-08"
    
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
-    # license = "https://opensource.org/licenses/MIT"
+    license = "https://opensource.org/licenses/MIT"
 
     # Sidebar position
     # false, true, "left", "right"
-    sidebar = "left"
+    sidebar = "right"
 
     # Hide estimated reading time for posts.
     # Default (if omitted) is false.
@@ -55,4 +55,14 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     
     # Displays under the author name in the sidebar, keep it short.
     # You can use markdown here.
-    tagline = "Notes on this and that."
+    tagline = "Notes on this and that..."
+
+    googleAnalytics = " UA-92008736-1"
+    
+    gravatarHash = "f7dd8b52bc092b4e50e9324381b02d67"
+
+[params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
