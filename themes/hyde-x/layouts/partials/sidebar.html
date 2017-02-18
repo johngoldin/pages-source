@@ -29,7 +29,6 @@
       {{ if .Site.Params.rss }}<a href="{{ "/index.xml" | absURL }}" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>{{ end }}
       </li>
     </ul>
-
     {{ if isset .Site.Params "flattr" }}
     <p><script id='flattr'>
       (function(id){
@@ -44,7 +43,6 @@
       })('flattr');
     </script></p>
     {{ end }}
-
     <p>Copyright &copy; {{ .Now.Format "2006" }} <a href="{{ "/license/" | absURL }}">License</a><br/>
        Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
   </div>

@@ -30,10 +30,15 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/johngoldin"
+[[menu.main]]
+    name = "Flickr"
+    url = "https://www.flickr.com/photos/99418994@N00/"
 
 [params]
     description = "Some of my personal projects with R"
 
+    #twitter = "https://twitter.com/johngoldin"
+    #github = "https://github.com/johngoldin"
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.9.0"
     highlightjsLang = ["r", "yaml"]

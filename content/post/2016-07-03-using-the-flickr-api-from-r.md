@@ -11,14 +11,14 @@ tags:
 ---
 There used to be an [Rflickr package](https://github.com/duncantl/Rflickr/blob/master/inst/doc/Rflickr.xml), but it no longer seems to work. It was last updated in 2011. I had a lot of trouble googling information on how to access Flickr from R. [This example](http://timelyportfolio.github.io/rCharts_Rflickr/iso_httr.html) really got me started. It is doing very different things that what I wanted to do, so it may be more useful than what I am laying out here, depending on your goal.
 
-To see where all this is leading, see my Shiny app which displays [souvenirs of my walks](https://goldin.shinyapps.io/Walks/. Click on a camera
-icon and you will see a thumbnail photo from Flickr in a popup. Click on the popup, and you will be taken to the full-sized photo in Flickr.
+<img style="float: right;" src="/img/Hadrians-Wall-screenshot.png", height="301", width="252">To see where all this is leading, go to my Shiny app which displays [souvenirs of my walks](https://goldin.shinyapps.io/Walks/). Click on a camera
+icon and you will see a thumbnail photo from Flickr in a popup. Click on the popup, and you will be taken to the full-sized photo in Flickr. To the right is a screenshot of the app showing a popup photo of Hadrian's Wall. The GPS traces are in orange and red (for two different days).
 
-Before you can get Flickr data into R via their web API, you will need to [sign up for a key](https://www.flickr.com/services/api/misc.api_keys.html). You will get a `user_id` and an `api_key`.
+Before you can get flickr data into R via their web API, you will need to [sign up for a key](https://www.flickr.com/services/api/misc.api_keys.html). You will get a `user_id` and an `api_key`.
 
 I save the `user_id` and `api_key` in a file that I load before executing the calls to the API. That way I am not showing the `api_key` in my code. In the examples below, these are loaded from `flickr_values.RData`.
 
-The gateway to information about accessing Flickr data is via The App Garden page at flickr.com. From that page you can go to the documentation for each call to the API. At the bottom of each documentation page there should be an API Explorer that takes you to a page that lets you try out the API call. See photosets.getList as an example. The API Explorer is a huge help and a great tool.
+The gateway to information about accessing Flickr data is via [The App Garden](https://www.flickr.com/services/api/) page at [Flickr](https://www.flickr.com/). From that page you can go to the documentation for each call to the API. At the bottom of each documentation page there should be an API Explorer that takes you to a page that lets you try out the API call. See [photosets.getList](https://www.flickr.com/services/api/explore/flickr.photosets.getList) as an example. The API Explorer is a huge help and a great tool.
 
 Here’s the code for an R function that will get a list of photosets (or albums):
 
@@ -26,7 +26,7 @@ Here’s the code for an R function that will get a list of photosets (or albums
 library(httr)
 library(jsonlite)
 
-load(file = "flickr_values.RData") # to get user_id and api_key for flickr calls
+load(file = "flickr_values.RData") # to get user_id and api_key for Flickr calls
 
 # test: an_album <- flickr_photosets_getlist(api_key, user_id)
 flickr_photosets_getlist <- function(the_api_key = api_key, the_user_id = user_id) {
@@ -84,12 +84,12 @@ flickr_photosets_getphotos <- function(the_photoset_id = NULL,
 
 What I wanted from Flickr was to be able to show a thumbnail version of a photo to add to a marker on a Leaflet map and then send the person to the photo at the Flickr site if the viewer clicked on the thumbnail.
 
-The flickr API constructs URL’s that fetch small or medium sized version of the photo.
+The Flickr API constructs URL’s that fetch small or medium sized version of the photo.
 
 Here is a facsimile of the code I used to add markers to the Leaflet map.
 
 ```
-# produce a flickr URL like the following:
+# produce a Flickr URL like the following:
 # https://www.flickr.com/photos/99418994@N00/22042568849/in/album-72157657606414684/
 photos_in_album_url <- function(album_id, photo_id, user_id) {
   sprintf("https://www.flickr.com/photos/%s/%s/in/album-%s/",
