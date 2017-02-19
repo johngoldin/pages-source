@@ -36,9 +36,11 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [params]
     description = "Some of my personal projects with R"
+    
+    gravatarHash = "f7dd8b52bc092b4e50e9324381b02d67"
 
-    #twitter = "https://twitter.com/johngoldin"
-    #github = "https://github.com/johngoldin"
+    # twitter = "https://twitter.com/johngoldin"
+    # github = "https://github.com/johngoldin"
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.9.0"
     highlightjsLang = ["r", "yaml"]
@@ -62,9 +64,8 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     # You can use markdown here.
     tagline = "Notes on this and that..."
 
-    googleAnalytics = " UA-92008736-1"
+    googleAnalytics = "UA-92008736-1"
     
-    gravatarHash = "f7dd8b52bc092b4e50e9324381b02d67"
 
 [params.logo]
     url = "logo.png"

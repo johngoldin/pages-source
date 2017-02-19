@@ -1,5 +1,5 @@
 ---
-title: Technical Note--Shiny Souvenir Map
+title: Technical Note--Shiny Souvenir Map of Walks
 date: '2016-06-28'
 categories:
   - R
@@ -26,3 +26,6 @@ There are a number tools that put photos on a map with an effect similar to what
 I first did a [version of the maps](http://rpubs.com/JohnGoldin/149745) using RMarkdown to publish to the RStudio RPubs site. Fortunately this spring I decided to take the plunge and learn about Shiny. Shiny is a much more natural way to allow me to navigate among the map locations. This is my second Shiny app. (The first was a tool to allow regular expression [search of The Diary of Samuel Pepys](https://goldin.shinyapps.io/Search_Pepys/).) Initially I had a version that worked great on my local machine, but failed when I tried to publish it to the shinyapps.io server. I posted a question to the Shiny Google group and got a helpful response from Joe Chang (the author of Shiny) in under a minute. In my initial version, I created a Leaflet map object and saved it to disk. The Shiny server would then load that object. But it turns out that the Leaflet map object depends on the local file structure so that when I copied that object to the Shiny server it no longer worked. I had to rearrange my code. First I had to assemble the geo-location info from GPS traces and the photo information from Flickr and save that as a data file that I could move to the Shiny server. On the Shiny server I create a Leaflet map and then use that data to add GPS traces and photo markers to the Leaflet map. It takes a noticeable amount of time each time the Shiny app starts up.
 
 See this post for code examples on [how to access Flickr from R]({{< relref "2016-07-03-using-the-flickr-api-from-r.md" >}}).
+
+
+

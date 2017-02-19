@@ -1,9 +1,10 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      {{ if isset .Site.Params "gravatarHash" }}
+    	<!--- changed the next line to be all lower case gravaatarhash --->
+      {{ if isset .Site.Params "gravatarhash" }}
         <img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=200"
-             alt="gravatar" title="{{ .Site.Title }}">
+             alt="gravatar" title="{{ .Site.Title }}" >
       {{ end }}
       <h1>{{ .Site.Title }}</h1>
       {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}

@@ -2,6 +2,7 @@
 title: How I Set Up This Site
 author: John Goldin
 date: '2017-02-11'
+menu: "main"
 categories: []
 tags: []
 Categories:
@@ -11,7 +12,6 @@ Description: ''
 Tags:
   - blogdown
   - GitHub
-menu: main
 ---
 I attended the **blogdown** session at the RStudio conference in Florida. I am enjoying the enthusiasm and energy around R and RStudio.
 It reminds me of the early days of personal computers at the end of the 70's and the beginning of the 80's. Perhaps I am experiencing a second
