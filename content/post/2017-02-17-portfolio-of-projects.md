@@ -31,8 +31,8 @@ create this web page is available on a [GitHub repository](https://github.com/jo
 I had an opportunity to chat with Julia at the RStudio Conference in Orlando. She gave me some suggestions
 for some additional things I might do with the diary.
 
-### Souvenirs of My Walks
-I have always loved to walk. When I retired in 2011 I went on a walking binge.
+### [Souvenirs of My Walks](https://goldin.shinyapps.io/Walks/)
+<img style="float: right;" src="/img/Lake-District.png", width="158", height="200">I have always loved to walk. When I retired in 2011 I went on a walking binge.
 At the same time, I discovered that a GPS trace
 could be a fun souvenir of my walks.
 An [article](http://mhermans.net/hiking-gpx-r-leaflet.html) I found via [R Bloggers](https://www.r-bloggers.com/) led me
@@ -44,7 +44,7 @@ I don't thnk this is of great interest to a stranger, but for me it is a fascina
 picture of my walks. I love to zoom in and see the detail of the map combined with the GPS trace and the photos.
 Like a good souvenir, it triggers lots of memories. If I lingered on a bench additional squiggles appear
 on the GPS trace showing where I stopped for a spell. I can also see my wrong turns.
-The code for the sourvenir walks site is available at a [GitHub repository](https://github.com/johngoldin/Visualizing-Hiking).
+The code for the sourvenir walks site is available at a [GitHub repository](https://github.com/johngoldin/Visualizing-Hiking). There are also some [technical notes]({{< relref "2016-06-28-technical-note-shiny-souvenir-map.md" >}}) and some details on [Flickr from R]({{< relref "2016-07-03-using-the-flickr-api-from-r.md" >}}).
 
 ### Connecticut Data by Town
 I did somse exploring to see what kind of data I could find and then created some maps via ggplot2 to display some of that data.
