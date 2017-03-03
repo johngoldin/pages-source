@@ -2,28 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2017/02/17/portfolio-of-projects/</loc>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
-    <lastmod>2017-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2016/12/30/a-plain-markdown-post-revised/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+    <loc>/2017/02/11/how-i-set-up-this-site/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2015/07/23/hello-r-markdown-revised/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/2016/07/03/using-the-flickr-api-from-r/</loc>
+    <lastmod>2016-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2015/01/01/lorem-ipsum-revised/</loc>
-    <lastmod>2015-01-01T13:09:13-06:00</lastmod>
+    <loc>/2016/06/28/technical-note--shiny-souvenir-map-of-walks/</loc>
+    <lastmod>2016-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/license/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/blogdown/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/blogdown/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -33,32 +54,62 @@
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/tags/flickr/</loc>
+    <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/flickr/</loc>
+    <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/github/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/gps/</loc>
+    <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/leaflet/</loc>
+    <lastmod>2016-07-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/personal/</loc>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

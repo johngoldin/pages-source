@@ -58,7 +58,7 @@ As I was writing
 this summary I found [this blog post](http://www.arilamstein.com/blog/2015/11/16/search-census-data-r/)
 that might help. I may get back to that later.
 
-### An Implementation of Narcissism in R
+### [An Implementation of Narcissism in R]({{< relref "2017-02-26-narcissism-in-r.html" >}})
 Sometimes I just want to play around plotting some data. What data could be more interesting than data about me?
 It so happens I have a data series of my daily weight spanning more than 20 years. That's not weird, is it. So I did some charts.
 

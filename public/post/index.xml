@@ -1,113 +1,424 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Can I Blog Too</title>
+    <title>Posts on </title>
     <link>/post/index.xml</link>
-    <description>Recent content in Posts on Can I Blog Too</description>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 17 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Plain Markdown Post revised</title>
-      <link>/2016/12/30/a-plain-markdown-post-revised/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      <title>Portfolio of Projects</title>
+      <link>/2017/02/17/portfolio-of-projects/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2016/12/30/a-plain-markdown-post-revised/</guid>
-      <description>&lt;p&gt;This is a post written in plain Markdown (&lt;code&gt;*.md&lt;/code&gt;) instead of R Markdown (&lt;code&gt;*.Rmd&lt;/code&gt;). The major differences are:&lt;/p&gt;
+      <guid>/2017/02/17/portfolio-of-projects/</guid>
+      <description>
+
+&lt;!--- created with this command:
+# blogdown::new_post(&#34;Portfolio of Projects&#34;, categories = c(&#34;R&#34;, &#34;personal&#34;), tags = c(&#34;R&#34;), rmd = FALSE)  ---&gt;
+
+&lt;p&gt;One motivation for creating this blog was to display a portfolio of projects that I have worked
+on in the last year or so. I&amp;rsquo;ll list projects here.
+The plan is that eventually I will add pages that elaborate each project. I hope that publishing
+my projects on this site will nudge me to be a bit more systematic as I execute projects.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-diary-of-samuel-pepys-https-goldin-shinyapps-io-search-pepys&#34;&gt;&lt;a href=&#34;https://goldin.shinyapps.io/Search_Pepys/&#34;&gt;The Diary of Samuel Pepys&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Each morning I read an entry from
+&lt;a href=&#34;http://www.pepysdiary.com/&#34;&gt;The Diary of Samuel Pepys&lt;/a&gt; at a wonderful
+site created by &lt;a href=&#34;http://www.gyford.com/&#34;&gt;Phil Gyford&lt;/a&gt;. Pepys kept the diary for about ten years during the 1660&amp;rsquo;s.
+Inspired by a post by
+&lt;a href=&#34;http://juliasilge.com/blog/Life-Changing-Magic/&#34;&gt;Julia Silge&lt;/a&gt;,
+I did some simple
+text processing on the diary. That became the
+occasion for my first shot at creating a Shiny app.
+The resulting web page is available &lt;a href=&#34;https://goldin.shinyapps.io/Search_Pepys/&#34;&gt;here&lt;/a&gt;. The code to
+create this web page is available on a &lt;a href=&#34;https://github.com/johngoldin/pepys-diary&#34;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I had an opportunity to chat with Julia at the RStudio Conference in Orlando. She gave me some suggestions
+for some additional things I might do with the diary.&lt;/p&gt;
+
+&lt;h3 id=&#34;souvenirs-of-my-walks-https-goldin-shinyapps-io-walks&#34;&gt;&lt;a href=&#34;https://goldin.shinyapps.io/Walks/&#34;&gt;Souvenirs of My Walks&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img style=&#34;float: right;&#34; src=&#34;../img/Lake-District.png&#34;, width=&#34;158&#34;, height=&#34;200&#34;&gt;I have always loved to walk. When I retired in 2011 I went on a walking binge.
+At the same time, I discovered that a GPS trace
+could be a fun souvenir of my walks.
+An &lt;a href=&#34;http://mhermans.net/hiking-gpx-r-leaflet.html&#34;&gt;article&lt;/a&gt; I found via &lt;a href=&#34;https://www.r-bloggers.com/&#34;&gt;R Bloggers&lt;/a&gt; led me
+to try to keep track of my walks more systematically.
+After doing some research on how to access the Flickr API from R,
+I was able to display my photos from Flickr on the GPS trace in a Leaflet map.
+The result is a Shiny app &lt;a href=&#34;https://goldin.shinyapps.io/Walks/&#34;&gt;here&lt;/a&gt;.
+I don&amp;rsquo;t thnk this is of great interest to a stranger, but for me it is a fascinating
+picture of my walks. I love to zoom in and see the detail of the map combined with the GPS trace and the photos.
+Like a good souvenir, it triggers lots of memories. If I lingered on a bench additional squiggles appear
+on the GPS trace showing where I stopped for a spell. I can also see my wrong turns.
+The code for the sourvenir walks site is available at a &lt;a href=&#34;https://github.com/johngoldin/Visualizing-Hiking&#34;&gt;GitHub repository&lt;/a&gt;. There are also some &lt;a href=&#34;../2016/06/28/technical-note--shiny-souvenir-map-of-walks/&#34;&gt;technical notes&lt;/a&gt; and some details on &lt;a href=&#34;../2016/07/03/using-the-flickr-api-from-r/&#34;&gt;Flickr from R&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;connecticut-data-by-town&#34;&gt;Connecticut Data by Town&lt;/h3&gt;
+
+&lt;p&gt;I did somse exploring to see what kind of data I could find and then created some maps via ggplot2 to display some of that data.&lt;/p&gt;
+
+&lt;h3 id=&#34;census-data-http-rpubs-com-johngoldin-196744&#34;&gt;&lt;a href=&#34;http://rpubs.com/JohnGoldin/196744&#34;&gt;Census Data&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;There is an &lt;a href=&#34;http://cran.r-project.org/web/packages/acs/index.html&#34;&gt;acs package&lt;/a&gt; to access US Census data.
+I did a little bit of exploration to see whether I could create maps of New Haven County based on Census data.
+Finding the right Census table turned out to be more of a trick than I expected. &lt;a href=&#34;http://rpubs.com/JohnGoldin/196744&#34;&gt;Here&lt;/a&gt; is a plot of New Haven County published to RPubs.&lt;/p&gt;
+
+&lt;p&gt;As I was writing
+this summary I found &lt;a href=&#34;http://www.arilamstein.com/blog/2015/11/16/search-census-data-r/&#34;&gt;this blog post&lt;/a&gt;
+that might help. I may get back to that later.&lt;/p&gt;
+
+&lt;h3 id=&#34;an-implementation-of-narcissism-in-r&#34;&gt;An Implementation of Narcissism in R&lt;/h3&gt;
+
+&lt;p&gt;Sometimes I just want to play around plotting some data. What data could be more interesting than data about me?
+It so happens I have a data series of my daily weight spanning more than 20 years. That&amp;rsquo;s not weird, is it. So I did some charts.&lt;/p&gt;
+
+&lt;h3 id=&#34;jai-alai&#34;&gt;Jai Alai&lt;/h3&gt;
+
+&lt;p&gt;Last but not least is jai alai. Back when I was in graduate school, there were two jai alai frontons in Connecticut, Milford and Bridgeport. Actually at one point there was also a third fronton in Hartford.
+There are some unique features to the way betting on jai alai is organized that makes it a bit
+tricky to analyze. Back then that seemed more interesting than working on my dissertaton. That period of my
+life is long past, but the lure of procrastination is still present. So on serveral occasions I have
+plunged back into jai alai. Jai alai was one of the first R projects I worked on after I retired. Recently
+I spent another month of my life on jai alai.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How I Set Up This Site</title>
+      <link>/2017/02/11/how-i-set-up-this-site/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/02/11/how-i-set-up-this-site/</guid>
+      <description>
+
+&lt;p&gt;I attended the &lt;strong&gt;blogdown&lt;/strong&gt; session at the RStudio conference in Florida. I am enjoying the enthusiasm and energy around R and RStudio.
+It reminds me of the early days of personal computers at the end of the 70&amp;rsquo;s and the beginning of the 80&amp;rsquo;s. Perhaps I am experiencing a second
+childhood. Anyway, all the Cool Kids are doing web pages on GitHub so I want to do it too.&lt;/p&gt;
+
+&lt;p&gt;I have done some simple blog posts with Blogger and WordPress. One of my goals is to create a portfolio of the my R projects.
+RMarkdown is the obvious way to go and WordPress doesn&amp;rsquo;t directly support
+that. So that&amp;rsquo;s a motivation to use &lt;strong&gt;blogdown&lt;/strong&gt;. But a big  part of the
+motivation is that these days I am &amp;ldquo;all in&amp;rdquo; with the RStudio set of
+tools so it&amp;rsquo;s natural to put my faith in Yihui Xie and jump in. Because &lt;strong&gt;blogdown&lt;/strong&gt; is still developing,
+I know I am going to suffer through rough edges. As a retiree, I am
+doing this for fun so the rough edges just add to the adventure.&lt;/p&gt;
+
+&lt;h3 id=&#34;github-pages&#34;&gt;GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;I had a little trouble to start because I didn&amp;rsquo;t understand the basics of
+what was going on with GitHub and web pages. Here I am focused on what GitHub refers to as a &amp;ldquo;user site&amp;rdquo; (as opposed to an organization site or a project site). See their &lt;a href=&#34;https://pages.github.com/&#34;&gt;general description of GitHub Pages&lt;/a&gt; and &lt;a href=&#34;https://help.github.com/articles/what-is-github-pages&#34;&gt;What is GitHub Pages?&lt;/a&gt;. The key
+fact is that if you have a repository called &lt;code&gt;username.github.io&lt;/code&gt; (with your
+GitHub username), whatever is in that repository will be served
+as a web site accessed as &lt;code&gt;https://username.github.io&lt;/code&gt;. What
+we are going to do here is describe how to use &lt;strong&gt;markdown&lt;/strong&gt;, RStudio,
+and GitHub to place the content of a static web site into
+your &lt;code&gt;username.github.io&lt;/code&gt; repository.&lt;/p&gt;
+
+&lt;h3 id=&#34;github&#34;&gt;GitHub&lt;/h3&gt;
+
+&lt;p&gt;The site relies on &lt;strong&gt;blogdown&lt;/strong&gt; and GitHub. You have to have at least a beginner&amp;rsquo;s familiarity with GitHub, and believe me, I am merely a
+GitHub beginner. I got my start with GitHub mostly based on information
+from Jenny Bryan (see &lt;a href=&#34;http://happygitwithr.com/&#34;&gt;Happy Git and GitHub for the useR&lt;/a&gt;) and from &lt;a href=&#34;https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN&#34;&gt;RStudio&lt;/a&gt;. There&amp;rsquo;s also an &lt;a href=&#34;https://guides.github.com/activities/hello-world/&#34;&gt;introduction&lt;/a&gt; on the GitHub site.&lt;/p&gt;
+
+&lt;p&gt;You need to be able to create a repository on GitHub and then
+clone that to a project in RStudio. See especially &lt;a href=&#34;http://happygitwithr.com/new-github-first.html&#34;&gt;section 16&lt;/a&gt; on Happy Git.&lt;/p&gt;
+
+&lt;p&gt;In general I try to operate in a way that allows me to rely on RStudio to do most of the work and to avoid doing git commands in the Terminal on OSX.
+That&amp;rsquo;s why I create a minimal repository first on GitHub and then create
+a new project in RStudio that clones the repository from GitHub. Rely on
+Jenny&amp;rsquo;s directions on how to do that.&lt;/p&gt;
+
+&lt;h3 id=&#34;creating-a-website&#34;&gt;Creating a website&lt;/h3&gt;
+
+&lt;p&gt;To get started with blogdown, I relied on a post by &lt;a href=&#34;https://proquestionasker.github.io/blog/Making_Site/&#34;&gt;Amber Thomas&lt;/a&gt;,
+especially the comments on the post by Yihui Xie, the creator of
+&lt;strong&gt;blogdown&lt;/strong&gt;. Amber&amp;rsquo;s instructions involve more work with Git than I wanted
+to attempt. In particular, she uses multiple branches. Instead,
+I followed the suggestion in the comments by Yihui Xie and created two repositories.
+One was for the site itself (&lt;code&gt;johngoldin.github.io&lt;/code&gt;) and the other (which I called &lt;code&gt;pages-source&lt;/code&gt;) contains the &lt;strong&gt;blogdown&lt;/strong&gt; and &lt;strong&gt;Hugo&lt;/strong&gt; material
+that actually produces the site.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (&lt;code&gt;```{r}&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;A plain Markdown post is rendered through &lt;a href=&#34;https://gohugo.io/overview/configuration/&#34;&gt;Blackfriday&lt;/a&gt;, and an R Markdown document is compiled by &lt;a href=&#34;http://rmarkdown.rstudio.com&#34;&gt;&lt;strong&gt;rmarkdown&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;http://pandoc.org&#34;&gt;Pandoc&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Create a repository for username.github.io on your github.&lt;/li&gt;
+&lt;li&gt;Clone that to a RStudio project with the same name.&lt;/li&gt;
+&lt;li&gt;Create a repository on your github, any name you desire, but here we will call it &lt;code&gt;hugo-source&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Clone that second project to an RStudio project.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:&lt;/p&gt;
+&lt;p&gt;You are going to use &lt;strong&gt;blogdown&lt;/strong&gt; to create a &lt;strong&gt;Hugo&lt;/strong&gt; site created by files in the RStudio project
+&lt;code&gt;hugo-source&lt;/code&gt;. And you are going to configure that site
+so that whenever it builds a website, it will place that
+website into the RStudio project username.github.io.
+When you push username.github.io to GitHub you will in effect
+publish your website.&lt;/p&gt;
 
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Write an R package.&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Write a book.&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; &amp;hellip;&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Profit!&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;(It doesn&amp;rsquo;t matter whether or not you maintain
+a GitHub repository for &lt;code&gt;hugo-source&lt;/code&gt;. It depends on whether
+you want to use version control for convenience or backup, just
+as would be true for any other RStudio project.)&lt;/p&gt;
 
-&lt;p&gt;Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (&lt;a href=&#34;https://github.com/yihui/hugo-lithium-theme&#34;&gt;hugo-lithium-theme&lt;/a&gt;) but there is a caveat for plain Markdown posts: you have to include inline math expressions in  a pair of escaped parentheses &lt;code&gt;\&lt;/code&gt;&lt;code&gt;( \)&lt;/code&gt; instead of dollar signs &lt;code&gt;$ $&lt;/code&gt;, e.g. &lt;code&gt;\(S_n = \sum_{i=1}^n X_i\)&lt;/code&gt;. For R Markdown posts, you can use &lt;code&gt;$ $&lt;/code&gt; to write inline math expressions.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://kevinfw.com/post/blogging-with-r-markdown/&#34;&gt;Kevin Wong&lt;/a&gt; does a nice
+job of describing the steps needed to get started with &lt;strong&gt;blogdown&lt;/strong&gt;. Too bad
+I didn&amp;rsquo;t discover this page until after I started writing this description. But I will follow his text closely here.&lt;/p&gt;
 
-&lt;p&gt;When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the &lt;code&gt;rmd&lt;/code&gt; argument of the function &lt;code&gt;blogdown::new_post()&lt;/code&gt;, e.g.&lt;/p&gt;
+&lt;p&gt;Here are the steps in the RStudio project that contains the source for Hugo. If you don&amp;rsquo;t already have &lt;code&gt;devtools&lt;/code&gt; installed as a pckage, use the Packages tab in RStudio to add that package.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::new_post(&amp;quot;Post Title&amp;quot;, rmd = FALSE)
+&lt;pre&gt;&lt;code&gt;library(devtools)
+devtools::install_github(&amp;quot;rstudio/blogdown&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the RStudio project hugo-source (or whatever you have called it), have
+&lt;strong&gt;blogdown&lt;/strong&gt; install hugo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(blogdown)
+blogdown::install_hugo()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next we wil have Hugo create a new site:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;blogdown::new_site()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The hugo-source site has to be &lt;strong&gt;totally&lt;/strong&gt; empty. Otherwise you will get an error. Of course as created it will not be totally empty.
+You will have an RProj file and probably &lt;code&gt;.gitignore&lt;/code&gt;.  Move those
+out of the project folder and keep them somewhere safe. Run
+&lt;code&gt;new_site&lt;/code&gt; again and them move them back into the project folder.&lt;/p&gt;
+
+&lt;p&gt;Next you need to install a &lt;strong&gt;Hugo&lt;/strong&gt; theme. Go to the &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;themes page&lt;/a&gt; to find one you like.
+It&amp;rsquo;s hard to know what to pick when you are just starting out.
+I&amp;rsquo;m a novice as well so I can&amp;rsquo;t offer good advice. You can
+avoid a choice for now and just stick with the default theme
+that is installed as part of the new_site() call.&lt;/p&gt;
+
+&lt;p&gt;If you have chosen a different theme, use the install_theme call:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install_theme(&amp;quot;spf13/hyde&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above commands  will be needed only once when you first
+setup the project.&lt;/p&gt;
+
+&lt;p&gt;To try out your site,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;blogdown::serve_site()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With luck, the web site should appear in your RStudio View pane.&lt;/p&gt;
+
+&lt;p&gt;If you make changes in a post, they will automatically update
+in the site if it is running, You press the &lt;strong&gt;stop&lt;/strong&gt; button to halt the site. To restart it in the RStudio Viewer pane, you
+can again use &lt;code&gt;blogdown::serve_site()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;How to you get this site running in &lt;strong&gt;GitHub&lt;/strong&gt;? There&amp;rsquo;s a neat trick.
+Edit the &lt;code&gt;config.toml&lt;/code&gt; file in the &lt;code&gt;hugo-pages&lt;/code&gt; project folder and
+add this magic line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;publishDir = &amp;quot;../username.github.io&amp;quot;   # where username is your GitHub name
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Whenever you run blogdown::serve_site(), the constructed site will be
+created in the &lt;code&gt;username.github.io&lt;/code&gt; directory rather than in &lt;code&gt;hugo-pages&lt;/code&gt;.
+To get the site working on &lt;strong&gt;GitHub&lt;/strong&gt;, switch to the &lt;code&gt;username.github.io&lt;/code&gt; project in RStudio,
+go to the Git pane in RStudio, select all the changed files, &lt;code&gt;Commit&lt;/code&gt;,
+and then &lt;code&gt;Push&lt;/code&gt; the changes to &lt;strong&gt;GitHub&lt;/strong&gt;. Magic! The same code
+that is creating the trial web site on your local computer will
+now be reproduced exactly in the &lt;code&gt;username.github.io&lt;/code&gt;
+repository on &lt;strong&gt;GitHub&lt;/strong&gt; and can be accessed as &lt;a href=&#34;http://username.github.io&#34;&gt;http://username.github.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can work on your web site on your local RStudio project. When you think it is ready to publish changes
+for all the world to see, go to the &lt;code&gt;username.github.io&lt;/code&gt; project and
+push the changes to &lt;strong&gt;GitHub&lt;/strong&gt; and you have published your changes on the web.&lt;/p&gt;
+
+&lt;p&gt;In summary, here are the steps to maintain the site:&lt;br /&gt;
+1. edit the site in the hugo-source project&lt;br /&gt;
+2. run blogdown::serve_site() to refresh the site&lt;br /&gt;
+3. switch to the username.github.io project on your local machine&lt;br /&gt;
+4. commit all changes&lt;br /&gt;
+5. push those changes to username.github.io on GitHub.&lt;/p&gt;
+
+&lt;h3 id=&#34;now-what&#34;&gt;Now What?&lt;/h3&gt;
+
+&lt;p&gt;I now have a working web site on &lt;strong&gt;GitHub&lt;/strong&gt;. But I have a ways to go to learn
+how to take advantage of &lt;strong&gt;Hugo&lt;/strong&gt; on an ongoing basis. So far I have added
+one and only one post. I have looked at the &lt;a href=&#34;http://gohugo.io/overview/usage/&#34;&gt;Hugo documentation&lt;/a&gt; a bit to try to figure out how to do some basis things.
+For example, &lt;a href=&#34;https://gohugo.io/extras/shortcodes#ref-relref&#34;&gt;this page&lt;/a&gt; tells
+me how to add a cross-reference to a post on my site.&lt;/p&gt;
+
+&lt;p&gt;It is not yet clear to me how I will take advantage of my &lt;strong&gt;Hugo&lt;/strong&gt; &lt;strong&gt;GitHub&lt;/strong&gt; site on an ongoing basis.
+One of the features of &lt;strong&gt;blogdown&lt;/strong&gt; is that I can use RMarkdown.
+How will I do that in practice?
+I&amp;rsquo;ll have an RMarkdown file in a project I am working on that
+documents or demonstrates that project. Will I &lt;code&gt;knit&lt;/code&gt; the file
+and then move the html to my &lt;strong&gt;blogdown&lt;/strong&gt; project? Will
+I move the Rmd file to the &lt;strong&gt;blogdown&lt;/strong&gt; project and include a &lt;code&gt;setwd&lt;/code&gt; function
+call to point to the project that it comes from? I haven&amp;rsquo;t
+tried any of this in practice yet. I need to look at the existing &lt;strong&gt;blogdown&lt;/strong&gt;
+examples more closely. When I know more, I&amp;rsquo;ll add to this introduction.&lt;/p&gt;
+
+&lt;p&gt;I have switched to the Hyde-x theme rather than just Hyde.
+Configuration has involved a lot of trial and error.
+I setup Disqus and briefly saw the ability to do comments on my blog. But after and I made some unrelated changes,
+I no longer saw any sign of Disqus.
+Eventually I realized that I was confused (and ignorant) about the
+syntax of &lt;code&gt;config.toml&lt;/code&gt;. I had had a square-brackets author line above
+the line that set &lt;code&gt;disqusShortname&lt;/code&gt; and as a result &lt;code&gt;disqusShortname&lt;/code&gt;
+wasn&amp;rsquo;t getting set. I moved things around and comments reappeared.&lt;/p&gt;
+
+&lt;p&gt;This is typical of the blundering around I am doing with Hugo and themes.
+I guess it&amp;rsquo;s a learning experience.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Hello R Markdown revised</title>
-      <link>/2015/07/23/hello-r-markdown-revised/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Using the Flickr API from R</title>
+      <link>/2016/07/03/using-the-flickr-api-from-r/</link>
+      <pubDate>Sun, 03 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/2015/07/23/hello-r-markdown-revised/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+      <guid>/2016/07/03/using-the-flickr-api-from-r/</guid>
+      <description>&lt;p&gt;There used to be an &lt;a href=&#34;https://github.com/duncantl/Rflickr/blob/master/inst/doc/Rflickr.xml&#34;&gt;Rflickr package&lt;/a&gt;, but it no longer seems to work. It was last updated in 2011. I had a lot of trouble googling information on how to access Flickr from R. &lt;a href=&#34;http://timelyportfolio.github.io/rCharts_Rflickr/iso_httr.html&#34;&gt;This example&lt;/a&gt; really got me started. It is doing very different things that what I wanted to do, so it may be more useful than what I am laying out here, depending on your goal.&lt;/p&gt;
 
-/BLOGDOWN-BODY-BEFORE --&gt;
+&lt;p&gt;&lt;img style=&#34;float: right;&#34; src=&#34;../img/Hadrians-Wall-screenshot.png&#34;, height=&#34;301&#34;, width=&#34;252&#34;&gt;To see where all this is leading, go to my Shiny app which displays &lt;a href=&#34;https://goldin.shinyapps.io/Walks/&#34;&gt;souvenirs of my walks&lt;/a&gt;. Click on a camera
+icon and you will see a thumbnail photo from Flickr in a popup. Click on the popup, and you will be taken to the full-sized photo in Flickr. To the right is a screenshot of the app showing a popup photo of Hadrian&amp;rsquo;s Wall. The GPS traces are in orange and red (for two different days).&lt;/p&gt;
 
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;Now with new and improved text.&lt;/p&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;#####content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;Before you can get flickr data into R via their web API, you will need to &lt;a href=&#34;https://www.flickr.com/services/api/misc.api_keys.html&#34;&gt;sign up for a key&lt;/a&gt;. You will get a &lt;code&gt;user_id&lt;/code&gt; and an &lt;code&gt;api_key&lt;/code&gt;.&lt;/p&gt;
 
+&lt;p&gt;I save the &lt;code&gt;user_id&lt;/code&gt; and &lt;code&gt;api_key&lt;/code&gt; in a file that I load before executing the calls to the API. That way I am not showing the &lt;code&gt;api_key&lt;/code&gt; in my code. In the examples below, these are loaded from &lt;code&gt;flickr_values.RData&lt;/code&gt;.&lt;/p&gt;
 
-&lt;!-- BLOGDOWN-HEAD
+&lt;p&gt;The gateway to information about accessing Flickr data is via &lt;a href=&#34;https://www.flickr.com/services/api/&#34;&gt;The App Garden&lt;/a&gt; page at &lt;a href=&#34;https://www.flickr.com/&#34;&gt;Flickr&lt;/a&gt;. From that page you can go to the documentation for each call to the API. At the bottom of each documentation page there should be an API Explorer that takes you to a page that lets you try out the API call. See &lt;a href=&#34;https://www.flickr.com/services/api/explore/flickr.photosets.getList&#34;&gt;photosets.getList&lt;/a&gt; as an example. The API Explorer is a huge help and a great tool.&lt;/p&gt;
 
+&lt;p&gt;Here’s the code for an R function that will get a list of photosets (or albums):&lt;/p&gt;
 
+&lt;pre&gt;&lt;code&gt;library(httr)
+library(jsonlite)
 
+load(file = &amp;quot;flickr_values.RData&amp;quot;) # to get user_id and api_key for Flickr calls
 
-/BLOGDOWN-HEAD --&gt;
+# test: an_album &amp;lt;- flickr_photosets_getlist(api_key, user_id)
+flickr_photosets_getlist &amp;lt;- function(the_api_key = api_key, the_user_id = user_id) {
+  # flickr_photosets_getlist returns a data.frame with info on the albums.
+  xx &amp;lt;- GET(url=sprintf(
+    &amp;quot;https://api.flickr.com/services/rest/?method=flickr.photosets.getList&amp;amp;api_key=%s&amp;amp;user_id=%s&amp;amp;format=json&amp;amp;nojsoncallback=1&amp;quot;
+    , the_api_key
+    , the_user_id
+  )
+  ) %&amp;gt;% content(as = &amp;quot;text&amp;quot;) %&amp;gt;%
+    fromJSON()  # check that xy$stat == &amp;quot;ok&amp;quot;
+  if (xx$stat != &amp;quot;ok&amp;quot;) return(xx$stat)
+  albums &amp;lt;- xx$photosets[[5]]
+  return(albums)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I get a message that says “No encoding supplied: defaulting to UTF-8.” Based on some googling, I think that’s from the GET call (from httr). I think this will disappear with a future version of httr.&lt;/p&gt;
+
+&lt;p&gt;Now that we have a data.frame that describes the albums, we can go on to get info about the photos in that album. (Remember that a photoset in the lingo of the API corresponds to an album in the terms used by the main Flickr site.)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#test:  xx &amp;lt;- flickr_photosets_getphotos(the_photoset_id = &amp;quot;72157657606414684&amp;quot;)
+flickr_photosets_getphotos &amp;lt;- function(the_photoset_id = NULL, 
+                                       time_start = NULL, 
+                                       time_end = NULL, 
+                                       the_api_key = api_key, 
+                                       the_user_id = user_id) {
+  # returns data.frame of photos including datetaken, latitude, longitude, 
+  # url_m, height_m, width_m and url_s, height_s, height_m
+  xx &amp;lt;- GET(url=sprintf(
+    &amp;quot;https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&amp;amp;api_key=%s&amp;amp;photoset_id=%s&amp;amp;user_id=%s&amp;amp;extras=%s&amp;amp;format=json&amp;amp;nojsoncallback=1&amp;quot;
+    , the_api_key
+    , the_photoset_id
+    , the_user_id
+    , &amp;quot;description,date_taken,geo,url_m,url_s&amp;quot;
+  )
+  ) %&amp;gt;% content(as = &amp;quot;text&amp;quot;) %&amp;gt;%
+    fromJSON()  # check that xx$stat == &amp;quot;ok&amp;quot;
+  if (xx$stat != &amp;quot;ok&amp;quot;) {
+    print(paste(&amp;quot;Flickr error&amp;quot;, code, message))
+    return(xx$stat)
+  }
+  # description gets returned as a data.frame. I&#39;m not sure why. so get _content
+  xx$description &amp;lt;- xx$description[ ,&amp;quot;_content&amp;quot;]
+  xx$photoset$photo$datetaken &amp;lt;- ymd_hms(xx$photoset$photo$datetaken)
+  xx$photoset$latitude &amp;lt;- as.numeric(xx$photoset$latitude)
+  xx$photoset$longitude &amp;lt;- as.numeric(xx$photoset$longitude)
+  xx$photoset$photo$latitude &amp;lt;- ifelse(xx$photoset$photo$latitude != 0, xx$photoset$photo$latitude, NA)
+  xx$photoset$photo$longitude &amp;lt;- ifelse(xx$photoset$photo$longitude != 0, xx$photoset$photo$longitude, NA)
+  if (is.null(time_start) &amp;amp; is.null(time_end)) return(xx$photoset$photo)
+  filter(xx$photoset$photo, is.null(time_start) | (datetaken &amp;gt;= time_start), is.null(time_end) | (datetaken &amp;gt;= time_end))
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What I wanted from Flickr was to be able to show a thumbnail version of a photo to add to a marker on a Leaflet map and then send the person to the photo at the Flickr site if the viewer clicked on the thumbnail.&lt;/p&gt;
+
+&lt;p&gt;The Flickr API constructs URL’s that fetch small or medium sized version of the photo.&lt;/p&gt;
+
+&lt;p&gt;Here is a facsimile of the code I used to add markers to the Leaflet map.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# produce a Flickr URL like the following:
+# https://www.flickr.com/photos/99418994@N00/22042568849/in/album-72157657606414684/
+photos_in_album_url &amp;lt;- function(album_id, photo_id, user_id) {
+  sprintf(&amp;quot;https://www.flickr.com/photos/%s/%s/in/album-%s/&amp;quot;,
+                 user_id,
+                 photo_id,
+                 album_id)
+}
+
+add_photos_to_map &amp;lt;- function(photos_df, a_map = null) {
+  if (is.null(a_map)) {
+    a_map &amp;lt;- leaflet(height = &amp;quot;700px&amp;quot;, width = NULL) %&amp;gt;%
+      addProviderTiles(&amp;quot;Thunderforest.Landscape&amp;quot;, group = &amp;quot;Topographical&amp;quot;) %&amp;gt;%
+      addProviderTiles(&amp;quot;Esri.WorldImagery&amp;quot;, group = &amp;quot;Satellite&amp;quot;) %&amp;gt;%
+      addProviderTiles(&amp;quot;OpenStreetMap.Mapnik&amp;quot;, group = &amp;quot;Road map&amp;quot;) 
+  }
+  photos_df &amp;lt;- filter(photos_df, !is.na(lng), !is.na(lat), include) # include == TRUE for the photos I want to add.
+
+  # photo_in_album is created by photos_in_album_url().  
+  # e.g., xx$trip_photos$photo_in_album &amp;lt;- map2_chr(xx$trip_photos$album_id, xx$trip_photos$id, photos_in_album_url, user_id) (using the purrr package that is part of the Hadleyverse)
+  a_map &amp;lt;- addMarkers(m, lng=photos_df$lng, lat= photos_df$lat,  
+                  popup = sprintf(&amp;quot;&amp;lt;a href=\&amp;quot;%s\ \&amp;quot; target=\&amp;quot;_blank\&amp;quot;&amp;gt;
+                                  &amp;lt;IMG SRC=\&amp;quot;%s\&amp;quot; ALT=\&amp;quot;%s\&amp;quot; WIDTH=%s HEIGHT=%s&amp;gt;%s &amp;lt;/a&amp;gt;&amp;quot;, 
+                                  photos_df$photo_in_album,
+                                  photos_df$url_s, 
+                                  &amp;quot;Click to go to photo in Flickr&amp;quot;,
+                                  photos_df$width_s,
+                                  photos_df$height_s,
+                                  photos_df$description),  
+                  icon = photoIcon, # function providing custom marker-icons
+                  group=&#39;Photo markers&#39;)
+  a_map
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I used these calls to add photo markers a Leaflet map showing souvenirs of my walking holidays.
+You can see the results &lt;a href=&#34;https://goldin.shinyapps.io/Walks/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Lorem Ipsum revised</title>
-      <link>/2015/01/01/lorem-ipsum-revised/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>Technical Note--Shiny Souvenir Map of Walks</title>
+      <link>/2016/06/28/technical-note--shiny-souvenir-map-of-walks/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/2015/01/01/lorem-ipsum-revised/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Lorem ipsum&lt;/strong&gt; dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore &lt;em&gt;magna aliqua&lt;/em&gt;. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      <guid>/2016/06/28/technical-note--shiny-souvenir-map-of-walks/</guid>
+      <description>&lt;p&gt;I have used RStudio’s Shiny to create a &lt;a href=&#34;https://goldin.shinyapps.io/Walks/&#34;&gt;map page&lt;/a&gt; where I can display GPS traces and photos from walks I have done during the last five years.&lt;/p&gt;
+
+&lt;p&gt;The map is based on an example provided by Maarten Hermans in  a &lt;a href=&#34;http://mhermans.net/hiking-gpx-r-leaflet.html&#34;&gt;blog post&lt;/a&gt; that he published last year. The map uses R htmlwidgets that provide access to the Javascript tool Leaflet. The trick is that I don’t have to know very much about either htmlwidgets or Leaflet to make this work.&lt;/p&gt;
+
+&lt;p&gt;Maarten relies on the package rgdal to deal with mapping issues. &lt;a href=&#34;http://www.gdal.org/&#34;&gt;GDAL – Geospatial Data Abstraction Library&lt;/a&gt; is a &lt;a href=&#34;http://www.osgeo.org/gdal_ogr&#34;&gt;big topic&lt;/a&gt;. I had used it previously to convert map coordinates from the projection used in Great Britain to WGS84, the projection used in the US, Google Earth, and Open Street Maps. Via Maarten’s example I learned that I could use an rgdal function (readOGR) to load in GPS tracks in the GPX format. With a bit of googling I picked up a couple of other useful tools. But I still have the barest understanding of what’s involved with GDAL (and the sp package that relies on rgdal). Back when I was first using rgdal I had some problems properly installing the gdal C libraries on OSX. It took a fair amount of googling to get that sorted out.&lt;/p&gt;
+
+&lt;p&gt;The example by Maarten displayed photos from his local server. I wanted to use photos that I had already uploaded to Flickr. There is an API to access Flickr, but at first I had a lot of trouble figuring out how to use it from R. There is an Rflickr package, but it appears to be out of date and no longer functions. Once again googling led me to an &lt;a href=&#34;http://timelyportfolio.github.io/rCharts_Rflickr/iso_httr.html&#34;&gt;example&lt;/a&gt; that unlocked the technique to use the Flickr API from R. As typically happens, this led me into a couple of other technical byways. I used the package &lt;a href=&#34;https://cran.r-project.org/web/packages/httr/index.html&#34;&gt;httr&lt;/a&gt; to interact with the Flickr API. Data is returned via JSON. I had heard of that before, but didn’t really understand its purpose. This led me into the package &lt;a href=&#34;https://cran.r-project.org/web/packages/jsonlite/vignettes/json-aaquickstart.html&#34;&gt;jsonlite&lt;/a&gt;. Once I got rolling with the Flickr API I realized that it was very effective and easy to use. Flickr sends me the URL for my pictures and I am able to put that URL into the popup markers that appear on the Leaflet map. The pre-sized photos are only downloaded from Flickr as needed so they popup very quickly.&lt;/p&gt;
+
+&lt;p&gt;My camera has a GPS and many of my photos are geo-tagged (depending on whether the camera had enough time to get a GPS fix). But for the camera icons on the GPS trace I did not rely on the GPS info from the camera. Instead I matched the time of the photo with the time of the points on the GPS trace. This works quite well. The GPS records time in universal (i.e. Greenwich) time while the camera generally records the time in the local time zone. I had to adjust for those time difference and sometimes adjust for the fact that in some cases I had the camera set on a wacky time zone.&lt;/p&gt;
+
+&lt;p&gt;As always my R code relies on the suite of packages created by &lt;a href=&#34;http://priceonomics.com/hadley-wickham-the-man-who-revolutionized-r/&#34;&gt;Hadley Wickham&lt;/a&gt;. I operate in the Hadleyverse. For this project httr was yet another &lt;a href=&#34;http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/&#34;&gt;hadleyverse&lt;/a&gt; package that turned out to do exactly what I needed to do even before I knew I needed it to cope with the Flickr API. (And as an update I will note that we are supposed to refer to the &lt;em&gt;tidyverse&lt;/em&gt; rather than the &lt;em&gt;hadleyverse&lt;/em&gt;.)&lt;/p&gt;
+
+&lt;p&gt;There are a number tools that put photos on a map with an effect similar to what is displayed here. Flickr has some views that emphasize photos located on maps. If you have a photo that is tagged with longitude and latitude Flickr will show a map view showing other photos in the same location. It is interesting to note that the Flickr map views also rely on the same &lt;a href=&#34;http://leafletjs.com/&#34;&gt;Leaflet technology&lt;/a&gt; used for this project. (Leaflet is more commonly used with languages other than R.)&lt;/p&gt;
+
+&lt;p&gt;I first did a &lt;a href=&#34;http://rpubs.com/JohnGoldin/149745&#34;&gt;version of the maps&lt;/a&gt; using RMarkdown to publish to the RStudio RPubs site. Fortunately this spring I decided to take the plunge and learn about Shiny. Shiny is a much more natural way to allow me to navigate among the map locations. This is my second Shiny app. (The first was a tool to allow regular expression &lt;a href=&#34;https://goldin.shinyapps.io/Search_Pepys/&#34;&gt;search of The Diary of Samuel Pepys&lt;/a&gt;.) Initially I had a version that worked great on my local machine, but failed when I tried to publish it to the shinyapps.io server. I posted a question to the Shiny Google group and got a helpful response from Joe Chang (the author of Shiny) in under a minute. In my initial version, I created a Leaflet map object and saved it to disk. The Shiny server would then load that object. But it turns out that the Leaflet map object depends on the local file structure so that when I copied that object to the Shiny server it no longer worked. I had to rearrange my code. First I had to assemble the geo-location info from GPS traces and the photo information from Flickr and save that as a data file that I could move to the Shiny server. On the Shiny server I create a Leaflet map and then use that data to add GPS traces and photo markers to the Leaflet map. It takes a noticeable amount of time each time the Shiny app starts up.&lt;/p&gt;
+
+&lt;p&gt;See this post for code examples on &lt;a href=&#34;../2016/07/03/using-the-flickr-api-from-r/&#34;&gt;how to access Flickr from R&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

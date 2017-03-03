@@ -188,7 +188,34 @@ wasn't getting set. I moved things around and comments reappeared.
 This is typical of the blundering around I am doing with Hugo and themes.
 I guess it's a learning experience.
 
+### Things I Have Learned Since I First Posted This
 
+#### Directory Structure
+If you follow my steps exactly as described here or the instructions at the [RStudio blogdown readme](https://github.com/rstudio/blogdown), you
+are likely to end up with a two-tiered directory structure. You create an
+RStudio project for your site (the top level) and then when you run `blogdown::new_site()` you create a new directory within that project
+directory. That didn't seem right to me, so behind the scenes I "fixed" that
+and flattened things so that my hugo site directory was the same as my RStudio project.
+Since then, I've decided there is probably some advantage in keeping
+the hugo site as a separate directory inside the project directory. It's not
+a big deal, but having two levels gives you a place to put additional related
+material that is not directly related to your web site. As of now I have "flat" one-directory structure for my blogdown site. But if you
+follow the description in this post and end up with a two-level structure,
+keep it.
+
+#### How To Manage an RMarkdown Post
+I finally did my first RMarkdown post. As is likely to be the case,
+it is derived from a separate RStudio project. How should I deal with the
+working directory? The RMarkdown file is in my Hugo blogdown project. But
+the data file I need for my work is in the original project directory.
+At first I thought I should change the working directory with `setwd()`,
+but I wondered about what side effects that might produce.
+A [post on Stack Overflow](http://stackoverflow.com/questions/20060518/in-rstudio-rmarkdown-how-to-setwd) steered me away from `setwd()`. 
+I now know I should use something like `knitr::opts_knit$set(root.dir = '../myproject')`. I have been having some trouble with that,
+presumably because of the `..` notation to go up a directory, but
+I haven't taken the time yet to case that at. Being impatient I cut
+corners and sort of hardcoded the file reference in my Rmd file. I'll go back
+and fix that once I figure out the `root.dir` parameter.
 
 
 
