@@ -2,7 +2,7 @@
 title: An American Walking in Britain
 date: '2017-03-07'
 categories:
-  - British-Walking
+  - British Walking
 ---
 
 Since retiring in 2011, I have been on a binge of walking in the UK. I will try to offer some tips based on lessons I have learned.
@@ -12,7 +12,7 @@ But lots of things weren't obvious to me as an American and therefore a foreigne
 As an example right at the outset, compare the words "hiking" and "walking". In the
 US we use the word "hike" a lot. My impression is that "hiking" is not the usual term
 in England. Instead one refers to "walking". In America, "walking" implies a short ramble. In the UK one has the hard-core [Long Distance Walkers Association](https://www.ldwa.org.uk/). Their idea of a good time starts
-with about 50 miles. Or a more human-scaled example would be [The Walking Englishman](https://www.walkingenglishman.com/) web site, a great source
+with about 50 miles in a day. Or a more human-scaled example would be [The Walking Englishman](https://www.walkingenglishman.com/) web site, a great source
 of information. In these notes and tips I will try to use English terminology
 (based on my imperfect knowledge) and so I will
 refer to "walking" rather than "hiking".
@@ -62,7 +62,7 @@ somewhere and walk back to your hotel. Here in Connecticut where I live,
 there is a very nice set of trails (the [Blue Blazed Trails](https://www.ctwoodlands.org/blue-blazed-hiking-trails)), but
 almost none of them are near bus routes or motels or places to get food.
 Invariably one has to drive to a trail head. That's true for many foot paths in the UK as well, but there are also many that are available via public transportation.
-<img style="float: right;" src="/img/taxi.png">
+<img style="float: right;" src="/img/Port_Isaac_Shuttle.png">
 A couple of times I have decided to cut the day short and catch a bus for
 the rest of the trip. Sometimes there are even simple ferries to get you across
 an estuary. And even in rural areas there often is some sort of tax service available.
@@ -70,20 +70,6 @@ an estuary. And even in rural areas there often is some sort of tax service avai
 There are other aspects of the UK that probably make a difference. There is less suburban sprawl and less dependece on cars. In my part of the world one does
 not expect to find a motel or hotel anywhere except in a city or near a highway exit. In the UK B&B's and small-scale hotels seem more plentiful. I don't claim to understand all the political, cultural, and legal factors that create those differences in
 the environment. But the result is good for walkers.
-
-All in all, walking in the UK seems to be a much more visible and popular activity than hiking is in the US.
-There are TV shows, books, guides, and maps in far greater volume than
-in the US. [Alfred Wainwright](https://en.wikipedia.org/wiki/Alfred_Wainwright)
-seems to be regarded as the the key figure in the modern popularity
-of walking in Britain, especially the Lake District. He basically
-invented the route for the Coast to Coast Path, which is one of the most
-popular routes even though it is not one of the offical National Trails.
-There is a popular series of BBC programs by [Julia Bradbury](https://www.youtube.com/watch?v=8A9U9y1LMNM) 
-describing
-Waintwright's fell walks. The original Wainwright guide books are
-now somewhat out of date, but his enthusiasm is contagious and
-his drawings are quite charming. If your local public library
-has a copy, take a look.
 
 I'll mention one other factor about the English landscape: sheep. I like sight lines. I enjoy walking through woods now and again, but I'm not so big on a full day of it. 
 I like to get out in the open and see a long distance. In the American West, 
@@ -95,6 +81,39 @@ primarily sheep. Sometimes one will see a small stand of trees protected by
 an old stone wall enclosing the grove. There are lots of wooded areas in the UK and perhaps I'm overstating things a bit.
 But I associate areas like North Yorkshire with rolling green hills clear
 of trees. In Connecticut a long walk invariably involves a walk in the woods.
+
+All in all, walking in the UK seems to be a much more visible and popular activity than hiking is in the US.
+There are TV shows, books, guides, and maps in far greater volume than
+in the US. [Alfred Wainwright](https://en.wikipedia.org/wiki/Alfred_Wainwright)
+seems to be regarded as the the key figure in the modern popularity
+of walking in Britain, especially the Lake District. He basically
+invented the route for the Coast to Coast Path, which is one of the most
+popular routes even though it is not one of the offical [National Trails](http://www.nationaltrail.co.uk/).
+There is a popular series of BBC programs by [Julia Bradbury](https://www.youtube.com/watch?v=8A9U9y1LMNM) 
+describing
+Waintwright's fell walks. The original [Wainwright guide books](https://www.amazon.com/Alfred-Wainwright/e/B001HPUBVK/ref=sr_tc_2_0?qid=1489257346&sr=1-2-ent) are
+now somewhat out of date, but his enthusiasm is contagious and
+his drawings are quite charming. If your local public library
+has a copy, take a look.
+
+There are lots of other examples of the popularity of walking in Britain.
+Julia Bradbury has a whole series of TV programs on walking including the [Coast
+to Coast Path](https://www.youtube.com/watch?v=PRjhfaxOSyo) and another on [Best Walks](https://www.youtube.com/watch?v=96PUMMzARDo) and even [railway walks](https://www.youtube.com/watch?v=qHX-ZBC_d80&index=3&list=PLwJ3dKGiVfLKsZ5YVkkkIUrq28oC0bQHt). 
+
+There are plenty of books extolling the pleasures of walking in Britain. [The National Trails of England, Scotland and Wales](http://www.paddydillon.co.uk/guidebook/the-national-trails/) by Paddy Dillon provides
+a modern overview of each of the national trails with pictures, text, and
+a map to orient you. A book which is significant for me is [The National 
+Trust Book of Long Walks in England, Scotland and Wales](The National 
+Trust Book of Long Walks in England, Scotland and Wales) by Adam Nicolson with photographs by Charlie Waite. 
+This
+book was my introduction to the long distance trails in Britain. After stumbling
+on the existance of the Pennine Way in 1997, I wanted to know more and
+found the National Trust book in the New Haven Public Library
+after I returned home.
+
+I'll leave it to Julia Bradbury and the authors of these books to
+wax lyrical about the glories of British walking. In these notes
+I will be much more prosaic.
 
 ### Types of Walks
 
@@ -123,9 +142,9 @@ There are also walking holidays that are organized out of a particular inn. You 
 
 Although I've made it clear that camping is not my cup of tea, plenty of people
 do make there way along the long-distance trails in Britain camping in much the
-same way as Americans on the Appalachian or Pacific Coast Trails. Agan it's
-not something I know anything about so I won't do anything beyond
-acknowledging that it is a popular possibility.
+same way as Americans on the Appalachian or Pacific Coast Trails. It's
+not something I know anything about so all I can do is
+acknowledge that it is a popular possibility.
 
 ### Multi-day Walks
 
@@ -155,14 +174,22 @@ Of course there are other guide books available as well.
 
 ### What Next?
 
-So much for general introduction. Next I will try to address particular topics. Here's the plan. Next step will be for me to fill this in.
+So much for general introduction. 
+What I aspire to do
+in these posts is something like what [The London Hiker](http://londonhiker.com/advice-and-tips/you-can-have-london-and-the-hills) does
+for the city-bound in London.
+I will try to address particular topics and try to
+include the kinds of details that I didn't
+know before my first walking holiday. Here's the plan. Next step will be for me to fill this in.
 
-- Choosing a path
+### Topics
+
+- [Choosing a path]({{< relref "2017-03-11-american-walker-in-britain-part-2.md#choosing-a-path" >}})
 - Planning an itinerary
-- Money
 - Arranging for accommodations
 - Luggage transport
 - Food
+- Money
 - What to bring
 - Packing
 - Navigation

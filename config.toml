@@ -34,6 +34,9 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     name = "Flickr"
     url = "https://www.flickr.com/photos/99418994@N00/"
 
+[taxonomies]
+    # Optional. Use if you want tags and lists.
+    category = "categories"
 [params]
     description = "Some of my personal projects with R"
     
@@ -58,7 +61,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
     # Hide estimated reading time for posts.
     # Default (if omitted) is false.
-    hideReadingTime = true
+    hideReadingTime = false
     
     # Displays under the author name in the sidebar, keep it short.
     # You can use markdown here.
@@ -66,7 +69,8 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
     googleAnalytics = "UA-92008736-1"
     
-
+    custom_css = ["css/float.css"]
+    
 [params.logo]
     url = "logo.png"
     width = 50

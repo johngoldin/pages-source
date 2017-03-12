@@ -2,7 +2,9 @@
 title: "An Implementation of Narcissism in R"
 author: ~
 date: '2017-02-26'
-categories: []
+categories: 
+  - personal
+  - R
 tags:
   - personal
   - R
