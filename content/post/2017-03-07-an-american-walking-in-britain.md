@@ -182,8 +182,11 @@ I will try to address particular topics and try to
 include the kinds of details that I didn't
 know before my first walking holiday. Here's the plan. Next step will be for me to fill this in.
 
+<<<<<<< HEAD
 ### Topics
 
+=======
+>>>>>>> b4f2f7a5a5e07d42d9fc4f064fca9642a5edceac
 - [Choosing a path]({{< relref "2017-03-11-american-walker-in-britain-part-2.md#choosing-a-path" >}})
 - Planning an itinerary
 - Arranging for accommodations

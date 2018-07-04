@@ -2,7 +2,11 @@
 title: American Walker in Britain Part 2
 date: '2017-03-11'
 categories:
+<<<<<<< HEAD
   - British Walking
+=======
+  - British-Walking
+>>>>>>> b4f2f7a5a5e07d42d9fc4f064fca9642a5edceac
 ---
 
 ## Choosing a Path
@@ -98,6 +102,7 @@ In 2011 I drove through Glencoe with my sisters and it
 was a very different experience from walking the same valley.
 
 #### The Coast to Coast Path
+<<<<<<< HEAD
 <!--- and {{% figure src="/img/taxi.png#floatright" caption="Need a taxi Hadrians Wall Path?" %}}
  img style="float: right;" src="/img/taxi.png"> 
 <figure.right  > 
@@ -105,6 +110,8 @@ was a very different experience from walking the same valley.
   <figcaption>Isn't this better than camping?</figcaption>
    
 </figure> --->
+=======
+>>>>>>> b4f2f7a5a5e07d42d9fc4f064fca9642a5edceac
 
 [The Coast to Coast Path](https://www.sherpaexpeditions.com/Coast-to-Coast) is not an offical route like the others, but
 it is very popular. My impression is that it had a higher
@@ -129,11 +136,14 @@ nice walk with convenient access and forgiving terrain.
 
 There are many other possibilities. 
 
+<<<<<<< HEAD
 #### Go for Broke!
 
 If all of this sounds too tame and you have three months to spare, consider doing the walk from
 [Lands End to John O'Groats](http://www.landsendjohnogroats.info/route/).
 
+=======
+>>>>>>> b4f2f7a5a5e07d42d9fc4f064fca9642a5edceac
 #### Some Resources
 
 [National Trails](http://www.nationaltrail.co.uk/)    
@@ -142,9 +152,13 @@ If all of this sounds too tame and you have three months to spare, consider doin
 [London Hiker](http://londonhiker.com/resources/)    
 [Lonely Planet Top 10](https://www.lonelyplanet.com/united-kingdom/travel-tips-and-articles/76616)    
 [Walking Britain](http://www.walkingbritain.co.uk/)    
+<<<<<<< HEAD
 [20 Superb UK Walks - The Guardian](https://www.theguardian.com/travel/2016/apr/23/british-walks-uk-family-long-distance-paths-trails)    
 [Lonely Planet Walking in Britain](https://www.amazon.com/Lonely-Planet-Walking-Britain-David/dp/174104202X)    
 [Harvey walking maps](http://www.harveymaps.co.uk/acatalog/walking-maps.html#usestorage)    
 [Walk Highlands](https://www.walkhighlands.co.uk/)    
 -----
 #### [Back to UK Walking Topics]({{< relref "2017-03-07-an-american-walking-in-britain.md#topics" >}})
+=======
+[20 Superb UK Walks - The Guardian](https://www.theguardian.com/travel/2016/apr/23/british-walks-uk-family-long-distance-paths-trails)    
+>>>>>>> b4f2f7a5a5e07d42d9fc4f064fca9642a5edceac
