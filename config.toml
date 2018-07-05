@@ -2,7 +2,7 @@ baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
 title = "Can I Blog Too"  
-theme = "hyde-x"
+theme = "hyde"
     gravatarHash = "f7dd8b52bc092b4e50e9324381b02d67"
 
 MetaDataFormat = "toml"
