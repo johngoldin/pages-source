@@ -2,11 +2,7 @@
 title: American Walker in Britain Part 2
 date: '2017-03-11'
 categories:
-<<<<<<< HEAD
   - British Walking
-=======
-  - British-Walking
->>>>>>> b4f2f7a5a5e07d42d9fc4f064fca9642a5edceac
 ---
 
 ## Choosing a Path

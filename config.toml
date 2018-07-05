@@ -12,7 +12,7 @@ paginate = 10
 disqusShortname = "johngoldin"
 
 # send the public files to a different RStudio project
-publishDir = "../johngoldin.github.io"
+# publishDir = "../johngoldin.github.io"
 
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
