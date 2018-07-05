@@ -62,7 +62,10 @@ suppressPackageStartupMessages(library(lubridate))  # for dates
 ```{r getdata}
 # I was having trouble getting root.dir knitr parameter to work,
 # so I am hard coding a path to my data.
-if (str_detect(getwd(), "johng")) {
+if (str_detect(getwd(), "johngoldin")) {
+	fp <- file.path("/Users", "johngoldin", "Dropbox", "Programming",
+									"R_Stuff", "John Vitals","john weight.csv")
+} else if (str_detect(getwd(), "johng")) {
 	fp <- file.path("/Users", "johng", "Dropbox", "Programming",
 									"R_Stuff", "John Vitals","john weight.csv")
 } else {

@@ -38,7 +38,10 @@ suppressPackageStartupMessages(library(stringr))    # for processing strings
 suppressPackageStartupMessages(library(lubridate))  # for dates</code></pre>
 <pre class="r"><code># I was having trouble getting root.dir knitr parameter to work,
 # so I am hard coding a path to my data.
-if (str_detect(getwd(), &quot;johng&quot;)) {
+if (str_detect(getwd(), &quot;johngoldin&quot;)) {
+    fp &lt;- file.path(&quot;/Users&quot;, &quot;johngoldin&quot;, &quot;Dropbox&quot;, &quot;Programming&quot;,
+                                    &quot;R_Stuff&quot;, &quot;John Vitals&quot;,&quot;john weight.csv&quot;)
+} else if (str_detect(getwd(), &quot;johng&quot;)) {
     fp &lt;- file.path(&quot;/Users&quot;, &quot;johng&quot;, &quot;Dropbox&quot;, &quot;Programming&quot;,
                                     &quot;R_Stuff&quot;, &quot;John Vitals&quot;,&quot;john weight.csv&quot;)
 } else {
